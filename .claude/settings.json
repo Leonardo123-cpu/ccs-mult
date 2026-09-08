@@ -1,0 +1,40 @@
+{
+  "enabledPlugins": {
+    "cartographer@cartographer-marketplace": true,
+    "claude-mem@thedotmack": true,
+    "headroom@headroom-marketplace": true,
+    "ponytail@ponytail": true
+  },
+  "extraKnownMarketplaces": {
+    "cartographer-marketplace": {
+      "source": {
+        "source": "git",
+        "url": "https://github.com/kingbootoshi/cartographer.git"
+      }
+    },
+    "thedotmack": {
+      "source": {
+        "source": "git",
+        "url": "https://github.com/thedotmack/claude-mem.git"
+      }
+    },
+    "headroom-marketplace": {
+      "source": {
+        "source": "git",
+        "url": "https://github.com/headroomlabs-ai/headroom.git"
+      }
+    },
+    "ponytail": {
+      "source": {
+        "source": "git",
+        "url": "https://github.com/DietrichGebert/ponytail.git"
+      }
+    },
+    "addy-agent-skills": {
+      "source": {
+        "source": "git",
+        "url": "https://github.com/addyosmani/agent-skills.git"
+      }
+    }
+  }
+}

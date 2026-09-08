@@ -1,0 +1,6 @@
+mirante-da-estrela/
+node_modules/
+dist/
+*.log
+.env
+.env.*

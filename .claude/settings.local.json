@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:docs.google.com)",
+      "Bash(mkdir -p \"/c/Users/Leoziin/AppData/Local/Temp/claude/C--Users-Leoziin-Skill/649c3e8d-24eb-449c-8576-fb4579146e40/scratchpad\")",
+      "Bash(curl -sL \"https://docs.google.com/document/d/1wHRnNARqqdkQ9v9W0TnVdHqXtjxChU2K/export?format=docx\" -o \"/c/Users/Leoziin/AppData/Local/Temp/claude/C--Users-Leoziin-Skill/649c3e8d-24eb-449c-8576-fb4579146e40/scratchpad/modelo_orcamento.docx\")",
+      "Read(//c/Users/Leoziin/AppData/Local/Temp/claude/C--Users-Leoziin-Skill/649c3e8d-24eb-449c-8576-fb4579146e40/scratchpad/**)",
+      "Bash(pandoc -t markdown \"/c/Users/Leoziin/AppData/Local/Temp/claude/C--Users-Leoziin-Skill/649c3e8d-24eb-449c-8576-fb4579146e40/scratchpad/modelo_orcamento.docx\")",
+      "PowerShell(pandoc -t markdown \"C:\\\\Users\\\\Leoziin\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-Leoziin-Skill\\\\649c3e8d-24eb-449c-8576-fb4579146e40\\\\scratchpad\\\\modelo_orcamento.docx\")",
+      "Bash(python3 -c ' *)",
+      "Bash(cd \"/c/Users/Leoziin/AppData/Local/Temp/claude/C--Users-Leoziin-Skill/649c3e8d-24eb-449c-8576-fb4579146e40/scratchpad\" && ls \"/c/Users/Leoziin/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/3a982186-b5ab-4269-9c56-fe72a7df9776/f4883bd6-6dc2-4934-9241-2db8a3253df6/skills/docx/scripts/office/\")",
+      "Bash(python3 \"/c/Users/Leoziin/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/3a982186-b5ab-4269-9c56-fe72a7df9776/f4883bd6-6dc2-4934-9241-2db8a3253df6/skills/docx/scripts/office/soffice.py\" --headless --convert-to pdf modelo_orcamento.docx)"
+    ]
+  }
+}
